@@ -10,11 +10,12 @@ import com.ttiki.monthlyexpenses.entities.BankingAccount
 
 //This class is an adapter class for the banking accounts recycler view in the BankingAccountsFragment
 //It will be used to display the data in the recycler view
+//TODO: take this code, clean and optimize
 class BankingAccountsAdapter(val bankingAccounts: Array<BankingAccount>, val listener: (BankingAccount) -> Unit)
     : RecyclerView.Adapter<BankingAccountsAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): ViewHolder {
-        val bankingAccountItem = LayoutInflater.from(parent.context).inflate(R.layout.bankingAccountItem,parent, false)
+        val bankingAccountItem = LayoutInflater.from(parent.context).inflate(R.layout.banking_account_item,parent, false)
         return ViewHolder(bankingAccountItem)
     }
 
@@ -30,7 +31,10 @@ class BankingAccountsAdapter(val bankingAccounts: Array<BankingAccount>, val lis
         fun bind(bankingAccount: BankingAccount, listener: (BankingAccount) -> Unit) = with(itemView)
         {
             Log.i("XXX","bind")
-
+            //TODO: set the text of the text view to the name of the banking account
+//            ItemView.bankingAccountName.text = bankingAccount.name
+//            ItemView.bankAccountSold.text = bankingAccount.balance.toString()
+//            ItemView.bankAccountId.text = bankingAccount.id.toString()
             setOnClickListener { listener(bankingAccount) }
         }
     }

@@ -11,5 +11,5 @@ data class BankingAccount(
     var description: String,
     var icon: Int
 ) {
-    constructor() : this(0, "", 0.0, "", "", "")
+    constructor() : this(0, "", 0.0, "", "", 0)
 }

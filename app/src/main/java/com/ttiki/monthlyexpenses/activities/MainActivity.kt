@@ -21,6 +21,25 @@ class MainActivity : AppCompatActivity() {
         //setup bottom navigation view with nav controller
         bottomNavigationView.setupWithNavController(navController)
 
+        //Change the fragment when the bottom navigation view item is selected
+        bottomNavigationView.OnNavigationItemSelected  { item ->
+            when (item.itemId) {
+                R.id.homeFragment -> {
+                    navController.navigate(R.id.homeFragment)
+                }
+                R.id.bankFragment -> {
+                    navController.navigate(R.id.bankFragment)
+                }
+                R.id.payFragment -> {
+                    navController.navigate(R.id.payFragment)
+                }
+                R.id.historyFragment -> {
+                    navController.navigate(R.id.historyFragment)
+                }
+            }
+            true
+        }
+
 
 
 

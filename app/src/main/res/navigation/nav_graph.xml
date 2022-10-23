@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ttiki.monthlyexpenses.HomeFragment"
+        android:name="com.ttiki.monthlyexpenses.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/bankFragment"
-        android:name="com.ttiki.monthlyexpenses.BankFragment"
+        android:name="com.ttiki.monthlyexpenses.fragments.BankFragment"
         android:label="fragment_bank"
         tools:layout="@layout/fragment_bank" />
     <fragment
         android:id="@+id/payFragment"
-        android:name="com.ttiki.monthlyexpenses.PayFragment"
+        android:name="com.ttiki.monthlyexpenses.fragments.PayFragment"
         android:label="fragment_pay"
         tools:layout="@layout/fragment_pay" />
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.ttiki.monthlyexpenses.HistoryFragment"
+        android:name="com.ttiki.monthlyexpenses.fragments.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
 </navigation>
