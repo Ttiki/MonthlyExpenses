@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/bottomNav_home" />
+    <item
+        android:id="@+id/bankFragment"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="@string/bottomNav_BankingAccounts" />
+    <item
+        android:id="@+id/payFragment"
+        android:icon="@drawable/ic_baseline_payments_24"
+        android:title="@string/bottomNav_payments" />
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_baseline_history_edu_24"
+        android:title="@string/bottomNav_history" />
+
+</menu>

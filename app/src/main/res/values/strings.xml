@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">MonthlyExpenses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bottomNav_history">History</string>
+    <string name="bottomNav_home" >Home</string>
+    <string name="bottomNav_BankingAccounts" >Banking accounts</string>
+    <string name="bottomNav_payments" >Payments</string>
+</resources>

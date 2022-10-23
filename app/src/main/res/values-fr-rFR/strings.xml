@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottomNav_history">Historique</string>
+    <string name="bottomNav_payments">Salaires</string>
+    <string name="bottomNav_BankingAccounts">Comptes bancaires</string>
+    <string name="bottomNav_home">Accueil</string>
+</resources>
