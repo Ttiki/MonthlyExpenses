@@ -4,4 +4,5 @@
     <string name="bottomNav_payments">Salaires</string>
     <string name="bottomNav_BankingAccounts">Comptes bancaires</string>
     <string name="bottomNav_home">Accueil</string>
+    <string name="soldValue">Sold :</string>
 </resources>

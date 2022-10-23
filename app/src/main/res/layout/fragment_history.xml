@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HistoryFragment">
+    tools:context=".activities.MainActivity">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello_blank_fragment" />
+<!--    This page contains a list of transaction history.-->
+<!--    The list is populated by the HistoryAdapter class.-->
+<!--    This page uses a RecyclerView to display a list of transactions.-->
+<!--    The RecyclerView is populated by the HistoryAdapter class.-->
+<!--    The HistoryAdapter class is a subclass of RecyclerView.Adapter.-->
+
 
 </FrameLayout>

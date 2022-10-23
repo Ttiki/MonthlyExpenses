@@ -5,4 +5,5 @@
     <string name="bottomNav_home" >Home</string>
     <string name="bottomNav_BankingAccounts" >Banking accounts</string>
     <string name="bottomNav_payments" >Payments</string>
+    <string name="soldValue">Sold :</string>
 </resources>
